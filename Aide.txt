@@ -1,0 +1,20 @@
+//Creer et initialiser une nouvelle application Angular
+ng new
+
+// ng (angular) g (generate) c (component) course (nom du composant)
+ng g course
+
+//ng g s (service) "Nom du service" (pour generer un service)
+ng g s (service) email
+
+
+
+//-------------------------------------------------------------------------------
+Pour afficher la liste des Auteurs
+
+1/ creer le composant
+2/ creer le service
+3/ Renseigner le service dans le provider "app.module.ts"
+4/ Injecter le service dans le constructeur de la classe AuthorsComponent dans "AuthorsComponent.ts" et implementer le constructeur
+5/ Renseigner dans le "Authors.component.html" ce que tu veux afficher dans le composant
+6/ Ajouter le composant dans le 'app.component.html"
